@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <style>
+  
+    
+
+        .ValorPromo {
+      font-family: Helvetica;
+      font-size: 30px;
+      font-weight: 600;
+      color: red;
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      text-align: center;
+  }
+  
+  sup {
+      font-size: 16px;
+  }
+  
+   a button{
+     color:white;
+     background-color:red;
+     border-radius: 10%;
+     margin-top: 10px;
+     margin-left: 60px;
+      cursor: pointer;
+   }
+
+   p{
+    text-align: center;
+   }
+
+   button:hover{
+  background-color: green;
+  
+ }
+
+  
+  
+      </style>
+
+
+    <div onclick="abrirModal()" class="btn">Configurações</div>
+
+    <div class="janela-modal" id="janela-modal">
+       <div class="modal">
+         <button class="fechar" id="fechar"> X</button>
+          <img src="./download.jpg" alt="">
+          <p style="color: rgb(62, 62, 63);">Computador basico completo</p>
+          <p style="color: rgb(150, 152, 153);"> - Dual core</p>
+          <p style="color: rgb(150, 152, 153);">- 4GB de memória DDR2/2x2</p>
+          <p style="color: rgb(150, 152, 153);">- HD Sata de 320/GB</p>
+          <p style="color: rgb(150, 152, 153);">- Fonte atx basica</p>
+          <P style="color: rgb(150, 152, 153);">- Monitor de 17pol</P>
+          <p style="color: rgb(150, 152, 153);">- Cabo de energia</p>
+          <p style="color: rgb(150, 152, 153);">- Cabo Vga</p>
+          <p class="ValorPromo">R$ 450<sup>00</sup></p>
+          <p style="color: green;">10x $55 no cartão, <br> Crédito/Débito</p>
+          <a href="https://api.whatsapp.com/send?phone=5517992853648&text=Ol%C3%A1!%20no%20que%20posso%20te%20ajudar?" target="_blank"><button>Comprar agora</button></a>
+       </div>
+       </div>
+    </div>
+              
+    
+    <script src="script.js"></script>
+     
+    
+</body>
+</html>
